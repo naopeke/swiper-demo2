@@ -2,7 +2,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 
-//swiper
+//swiper@10
 // import { register as registerSwiperElements } from 'swiper/element/bundle';
 // registerSwiperElements();
 

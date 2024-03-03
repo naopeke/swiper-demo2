@@ -1,0 +1,9 @@
+.image-slide {
+    transition: transform 0.5s ease; /* トランジション効果を追加 */
+    height: 300px; /* 各画像の高さを300pxに設定 */
+    width: auto; /* 幅は自動に設定 */
+    }
+    
+    .image-slide:hover {
+      transform: scale(1.10); /* 10%拡大 */
+    }

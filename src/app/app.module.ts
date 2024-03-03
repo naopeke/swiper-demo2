@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
 // register Swiper custom elements
-register();
+// register();
 
 
 @NgModule({
@@ -23,4 +23,8 @@ register();
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(){
+    register(); //swiper
+  }
+ }
